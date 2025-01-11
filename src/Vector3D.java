@@ -22,7 +22,9 @@ public class Vector3D {
     }
 
     public static void main(String[] args) {
-
-
+        Vector3D vector = new Vector3D(1, 2, 3);
+        System.out.println("X:" + vector.getX());
+        System.out.println("Y:" + vector.getY());
+        System.out.println("Z:" + vector.getZ());
     }
 }
